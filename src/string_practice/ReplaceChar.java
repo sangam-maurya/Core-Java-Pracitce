@@ -3,7 +3,7 @@ package string_practice;
 public class ReplaceChar {
     public static void main(String[] args) {
         String[] str = {"s", "f", "s", "r", "a", "e", "q", "r", "e", "z", "x", "r"};
-        String placeholder = "_";
+        String placeholder = "----";
 
         for (int i = 0; i < str.length; i++) {
             // Check if the current element is a duplicate
