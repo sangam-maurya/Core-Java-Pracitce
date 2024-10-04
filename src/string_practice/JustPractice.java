@@ -104,7 +104,7 @@ public class JustPractice {
 //        Set <String> add = new TreeSet<>();
 //        for (int i=0; i<str.length-1; i++){
 //            if (add.contains(str[i])){
-//                str[i]=plseHolder;                 // replace char which is same
+//                str[i]=plseHolder;                 // replace charcter which is same
 //            }else {
 //                add.add(str[i]);
 //            }
