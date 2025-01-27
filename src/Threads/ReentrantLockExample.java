@@ -1,6 +1,5 @@
 package Threads;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -15,7 +14,7 @@ public class ReentrantLockExample extends Thread {
             lock.unlock();
         }
     }
-    private  final Lock lock = new ReentrantLock(true);
+    private  final Lock lock = new java.util.concurrent.locks.ReentrantLock(true);
 
 
         public void innerMethod(){
@@ -28,7 +27,8 @@ public class ReentrantLockExample extends Thread {
         }
 
     public static void main(String[] args)  {
-        ReentrantLockExample re = new ReentrantLockExample();
-        re.start();
+        ReentrantLock re = new ReentrantLock();
+        Thread thread = new Thread();
+     thread.start();
     }
 }

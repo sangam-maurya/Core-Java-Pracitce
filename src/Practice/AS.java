@@ -1,6 +1,8 @@
 package Practice;
 
-public class AS {
+import string_practice.Opps.B;
+
+public class AS  {
     public static void main(String[] args) {
         int arr[] = {3, 6, 3, 2, 10, 6 , 12 ,4 ,24 ,5};
         int a = 0;
@@ -25,5 +27,6 @@ public class AS {
         for (int i:tempArr){
             System.out.print(i + " ");
         }
+
     }
 }
